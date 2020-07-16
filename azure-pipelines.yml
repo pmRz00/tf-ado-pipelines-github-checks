@@ -34,4 +34,9 @@ steps:
   inputs:
     script: |
       'echo tfplan.out'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    cat tfplan.out
+  displayName: 'Run a multi-line script'
       
