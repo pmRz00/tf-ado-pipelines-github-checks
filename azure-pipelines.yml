@@ -30,11 +30,6 @@ steps:
     commandOptions: '-out=tfplan.out'
     environmentServiceNameAzureRM: 'Internal Consumption tostille(7d5e75b2-656e-4a96-b12f-24e2e79a8279)'
 
-- task: CmdLine@2
-  inputs:
-    script: |
-      'echo tfplan.out'
-
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     cat tfplan.out
