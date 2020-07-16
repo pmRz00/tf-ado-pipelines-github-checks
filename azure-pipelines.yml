@@ -33,5 +33,5 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      'cat tfplan.out'
+      'echo tfplan.out'
       
