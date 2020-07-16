@@ -33,5 +33,5 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      'echo "##vso[task.logissue type=warning;sourcepath=tfplan;]`less tfplan.out`"'
+      'echo "##vso[task.logissue type=warning;sourcepath=tfplan.out;]`less tfplan.out`"'
       'echo "##vso[task.uploadsummary]tfplan.out"'
