@@ -7,7 +7,7 @@ trigger:
 - master
 
 pr:
--master
+- master
 
 pool:
   vmImage: 'ubuntu-latest'
