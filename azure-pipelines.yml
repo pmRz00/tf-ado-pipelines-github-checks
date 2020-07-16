@@ -33,5 +33,5 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      'TEXT=$(<tfplan.out)'
-      'echo "##vso[task.logissue type=warning;]$TEXT"'
+      'out=$(`cat tfplan.out`)'
+      'echo "##vso[task.logissue type=warning;]$out"'
